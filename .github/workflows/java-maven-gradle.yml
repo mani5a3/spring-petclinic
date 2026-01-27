@@ -10,8 +10,8 @@ jobs:
       java_version: "8"
       build_tool: "maven"
       maven_goals: "clean install"
-      Sonar_ProjectKey: "gameoflife_github_actions"
-      Sonar_ProjectName: "gameoflife_github_actions"
+      Sonar_ProjectKey: "petclinic_github_actions"
+      Sonar_ProjectName: "petclinic_github_actions"
       Sonar_ProjectVersion: "1.0"
       runner: "windows"
 # secrets: inherit pulls secrets from the calling workflow’s context and makes them available to the reusable workflow.
