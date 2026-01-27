@@ -19,4 +19,4 @@ jobs:
       Jfrog_Username: "admin"
       Jfrog_Password: "password"
       Sonar_Username: "admin"
-      Sonar_Password: "admin"
+      Sonar_Password: "admin123"
