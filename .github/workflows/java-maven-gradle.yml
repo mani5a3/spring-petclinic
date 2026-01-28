@@ -26,5 +26,4 @@ jobs:
     secrets:
       Jfrog_Username: "admin"
       Jfrog_Password: "password"
-      Sonar_Username: "admin"
-      Sonar_Password: "admin123"
+      Sonar_Token: "sqp_691284d236601a120922685ddda763973e722149"
