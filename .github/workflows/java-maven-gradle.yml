@@ -14,16 +14,19 @@ jobs:
       Sonar_ProjectName: "petclinic_github_actions"
       runner: "windows"
       Sonar_JavaSource: "8"
-     
       Sonar_sources: "src/main/java"
       Sonar_tests: "src/test/java"
       Sonar_Javabinaries: "target/classes"
       Sonar_Jacaco_ReportPaths: "target/site/jacoco/jacoco.xml"
       Sonar_Junit_ReportPaths: "target/surefire-reports"
       Sonar_ScannerHome: C:\softwares\sonar-scanner-4.8.0.2856-windows\bin\sonar-scanner.bat
+      Artifact_FileName: target/spring-petclinic-2.1.${{ github.run_number }}.BUILD-SNAPSHOT.jar
+      Jfrog_RepoName: example-repo-local
+
 # secrets: inherit pulls secrets from the calling workflow’s context and makes them available to the reusable workflow.
     secrets:
       Jfrog_Username: "admin"
       Jfrog_Password: "password"
+      Jfrog_Url: "http://localhost:8081/artifactory"
       Sonar_Token: "sqp_691284d236601a120922685ddda763973e722149"
       Sonar_HostUrl: "http://localhost:9000"
