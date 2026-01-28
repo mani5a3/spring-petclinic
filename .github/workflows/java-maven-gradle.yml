@@ -27,6 +27,6 @@ jobs:
     secrets:
       Jfrog_Username: "admin"
       Jfrog_Password: "password"
-      Jfrog_Url: "http://localhost:8081/artifactory"
+      Jfrog_Url: "http://localhost:8081"
       Sonar_Token: "sqp_691284d236601a120922685ddda763973e722149"
       Sonar_HostUrl: "http://localhost:9000"
