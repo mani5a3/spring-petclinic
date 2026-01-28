@@ -12,7 +12,6 @@ jobs:
       maven_goals: "clean install"
       Sonar_ProjectKey: "petclinic_github_actions"
       Sonar_ProjectName: "petclinic_github_actions"
-      Sonar_ProjectVersion: "1.0"
       runner: "windows"
       Sonar_JavaSource: "8"
       Sonar_HostUrl: "http://localhost:9000"
