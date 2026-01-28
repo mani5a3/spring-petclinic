@@ -21,6 +21,7 @@ jobs:
       Sonar_Javabinaries: "target/classes"
       Sonar_Jacaco_ReportPaths: "target/site/jacoco/jacoco.xml"
       Sonar_Junit_ReportPaths: "target/surefire-reports"
+      Sonar_ScannerHome: C:\softwares\sonar-scanner-4.8.0.2856-windows\bin\sonar-scanner.bat
 # secrets: inherit pulls secrets from the calling workflow’s context and makes them available to the reusable workflow.
     secrets:
       Jfrog_Username: "admin"
