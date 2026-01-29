@@ -22,6 +22,8 @@ jobs:
       Sonar_ScannerHome: C:\softwares\sonar-scanner-4.8.0.2856-windows\bin\sonar-scanner.bat
       Artifact_FileName: target/spring-petclinic-2.1.${{ github.run_number }}.BUILD-SNAPSHOT.jar
       Jfrog_RepoName: example-repo-local
+      upload_artifact: false
+      run_sonar_analysis: false
 
 # secrets: inherit pulls secrets from the calling workflow’s context and makes them available to the reusable workflow.
     secrets:
